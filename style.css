@@ -1,0 +1,105 @@
+.navbar{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    align-content: center;
+    align-self: center;
+}
+#mainPage{
+    width: 130px;
+    margin-left: -10%;
+}
+  .nav-item{
+      background-color: white;
+ 
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 4px;
+    }
+    .nav-item a {
+  color: black;           /* берёт цвет от родителя (.nav-item) */
+  text-decoration: none;    /* убирает подчёркивание */
+  background-color: transparent; /* прозрачный фон */
+  cursor: pointer;          /* оставляет курсор-руку для кликабельности */
+  font-weight: normal;     /* сбрасывает жирность (если нужно) */
+  padding: 0;             /* убирает внутренние отступы (если нужно) */
+}
+
+.actions{
+display:flexbox;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-content: center;
+    align-self: center;
+    margin-right: -5%;
+          padding: -10px;
+
+}
+.makeOrder{
+    background-color: #F46C04 ;
+    border-radius: 1rem;
+    border-style: none;
+    height: 38px;
+    width: 180px;
+    font-weight: bold;
+    color: white;
+}
+.makeOrder:hover{
+    cursor: pointer;
+    background-color: #C95502;
+
+
+}
+.getOrder{
+padding: 10px 30px;
+
+}
+.connectType_tg, .connectType_ws{
+    
+    background-color: white;
+    border-radius: 1rem;
+    border-style: none;
+    height: 38px;
+    width: 45px;
+    font-weight: bold;
+    color: black;
+    border-style:groove;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.1);
+}
+.connectType:hover, .connectType_ws:hover{
+        cursor: pointer;
+
+}
+ul{
+    list-style-type: none;
+}
+
+h1{
+     background-color: white;
+ 
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+      padding: 10px 30px;
+      border-radius: 4px;
+}
+
+#mainContent{
+    margin-left: 100px;
+}
+
+p{
+    background-color: white;
+    color:gray;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      padding: 10px 30px;
+      border-radius: 4px;
+}
